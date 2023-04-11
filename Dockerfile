@@ -10,9 +10,10 @@ WORKDIR /app
 COPY . /app
 
 # RUN es un command shell en este caso un proyecto node
-RUN nmp install
+RUN npm install
 
-# EXPOSE expone los puertos internos fuera del contenedor
+# EXPOSE expone los puertos internos fuera del contenedor. 
+# EN REALIDAD NO HACE NADA, solo recomendada
 EXPOSE 80
 
 # CMD es lo mismo que RUN pero RUN es contra imagenes y CMD es solo contra containers
