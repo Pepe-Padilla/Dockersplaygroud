@@ -14,7 +14,7 @@ RUN npm install
 
 # EXPOSE expone los puertos internos fuera del contenedor. 
 # EN REALIDAD NO HACE NADA, solo recomendada
-EXPOSE 80
+EXPOSE 3000
 
 # CMD es lo mismo que RUN pero RUN es contra imagenes y CMD es solo contra containers
 # CMD tiene que ser la última instrucción y falla si no tiene una (explicita o por defecto)
