@@ -6,7 +6,9 @@ COPY package.json .
 
 RUN npm install
 
-COPY . .
+# Esto se monta ahora como volumen binded para que cualquier cambio en nuestrro código se refleje en las imagenes
+# también de debe de crar un volumen anonimo para ./node_modules que se crea tras hacer npm install en node
+#COPY . .
 
 EXPOSE 80
 
