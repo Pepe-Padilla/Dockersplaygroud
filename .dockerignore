@@ -1,0 +1,8 @@
+# ya que es un proyecto en local, es bueno poner aquí lo mismo que meteríamos en git, por ejemplo el resultado de npm install
+node_modules
+
+# no es necesario en la copy
+Dockerfile
+
+# no tiene caso meter toda la información de git a la imagen
+.git
