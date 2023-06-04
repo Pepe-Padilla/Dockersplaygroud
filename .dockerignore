@@ -6,3 +6,4 @@ Dockerfile
 
 # no tiene caso meter toda la información de git a la imagen
 .git
+.DS_Store
