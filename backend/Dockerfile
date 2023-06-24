@@ -8,4 +8,6 @@ RUN npm install
 
 COPY . .
 
-CMD ["node", "app.js"]
+EXPOSE 80
+
+CMD [ "ndee", "app.js"]
